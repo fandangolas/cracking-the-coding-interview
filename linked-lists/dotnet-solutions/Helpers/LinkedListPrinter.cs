@@ -10,6 +10,8 @@ namespace linked_lists.Helpers
       var head = list.First; 
 
       PrintElements<T>(head);
+      
+      Console.WriteLine();
     }
 
     public static void PrintElements<T>(LinkedListNode<T> node)

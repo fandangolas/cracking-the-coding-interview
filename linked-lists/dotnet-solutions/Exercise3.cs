@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using linked_lists.Helpers;
 
 namespace linked_lists 
 {
@@ -11,21 +12,15 @@ namespace linked_lists
 
         var list = new LinkedList<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
 
-        Console.WriteLine("Original Linked List: ");
-        foreach (var item in list)
-        {
-          Console.Write("{0}", item);
-        }
-        Console.WriteLine("\n");
+        Console.WriteLine("\n Original Linked List: ");
+        Console.Write("    ");
+        LinkedListPrinter.PrintLinkedList<int>(list);
 
         var listWithoutElementToRemove = RemoveElement(list, 4);
 
-        Console.WriteLine("Linked List after removing the element '4': ");
-        foreach (var item in listWithoutElementToRemove)
-        {
-          Console.Write("{0}", item);
-        }
-        Console.WriteLine("\n");
+        Console.WriteLine("\n Linked List after removing the element '4': ");
+        Console.Write("    ");
+        LinkedListPrinter.PrintLinkedList<int>(listWithoutElementToRemove);
       }
 
       public static LinkedList<int> RemoveElement(LinkedList<int> list, int elementToRemove)
