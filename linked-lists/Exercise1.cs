@@ -10,7 +10,7 @@ namespace linked_lists
       Console.WriteLine("Exercise 1: Remove duplicates from a Linked List");
 
       var elements = new int[] { 1, 2, 3, 4, 4, 5, 5, 6, 7, 8, 8 };
-      LinkedList<int> list = new LinkedList<int>(elements);
+      var list = new LinkedList<int>(elements);
       
       Console.WriteLine("\n");
       Console.WriteLine("List with dups: ");
