@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using linked_lists.Helpers;
 
 namespace linked_lists
 {
@@ -12,23 +13,17 @@ namespace linked_lists
       var elements = new int[] { 1, 2, 3, 4, 4, 5, 5, 6, 7, 8, 8 };
       var list = new LinkedList<int>(elements);
       
-      Console.WriteLine("\n");
-      Console.WriteLine("List with dups: ");
-      foreach (var item in list)
-      {
-          Console.Write("{0}", item);
-      }
+      Console.WriteLine("\n Original Linked List: ");
+      Console.Write("    ");
+      LinkedListPrinter.PrintLinkedList<int>(list);
 
       var linkedListWithoutDups = RemoveDuplicates(list);
       
-      Console.WriteLine("\n");
-      Console.WriteLine("List without dups: ");
+      Console.WriteLine("\n Linked List after removing duplicates: ");
+      Console.Write("    ");
+      LinkedListPrinter.PrintLinkedList<int>(linkedListWithoutDups);
 
-      foreach (var item in linkedListWithoutDups)
-      {
-          Console.Write("{0}", item);
-      }
-      Console.WriteLine("\n");
+      Console.WriteLine();
     }
 
     public static LinkedList<int> RemoveDuplicates(LinkedList<int> list)
