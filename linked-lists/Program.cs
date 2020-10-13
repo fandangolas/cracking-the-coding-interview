@@ -12,6 +12,8 @@ namespace linked_lists
           Console.WriteLine("--------------------");
           Exercise2.RunExercise();
           Console.WriteLine("--------------------");
+          Exercise3.RunExercise();
+          Console.WriteLine("--------------------");
       }
   }
 }
