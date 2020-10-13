@@ -18,10 +18,10 @@ namespace linked_lists
         }
         Console.WriteLine("\n");
 
-        var newList = RemoveElement(list, 4);
+        var listWithoutElementToRemove = RemoveElement(list, 4);
 
         Console.WriteLine("Linked List after removing the element '4': ");
-        foreach (var item in newList)
+        foreach (var item in listWithoutElementToRemove)
         {
           Console.Write("{0}", item);
         }
@@ -30,17 +30,15 @@ namespace linked_lists
 
       public static LinkedList<int> RemoveElement(LinkedList<int> list, int elementToRemove)
       {
-        var newList = new LinkedList<int>();
+        var listWithoutElementToRemove = new LinkedList<int>();
 
         foreach(var element in list)
         {
           if(element != elementToRemove)
-          {
-            newList.AddLast(element);
-          }
+            listWithoutElementToRemove.AddLast(element);
         }
 
-        return newList;
+        return listWithoutElementToRemove;
       }
     }
 }
