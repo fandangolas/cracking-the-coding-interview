@@ -10,6 +10,8 @@ namespace linked_lists
           Console.WriteLine("--------------------");
           Exercise1.RunExercise();
           Console.WriteLine("--------------------");
+          Exercise2.RunExercise();
+          Console.WriteLine("--------------------");
       }
   }
 }
