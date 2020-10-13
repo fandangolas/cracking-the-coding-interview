@@ -7,6 +7,8 @@ namespace linked_lists
     {
       public static void RunExercise()
       {
+        Console.WriteLine("Exercise 3: Delete middle node");
+
         var list = new LinkedList<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
 
         Console.WriteLine("Original Linked List: ");
