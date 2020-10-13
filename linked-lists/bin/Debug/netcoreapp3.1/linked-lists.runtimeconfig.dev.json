@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/fandangolas/.dotnet/store/|arch|/|tfm|",
+      "/home/fandangolas/.nuget/packages"
+    ]
+  }
+}

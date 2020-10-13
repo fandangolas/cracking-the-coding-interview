@@ -1,0 +1,11 @@
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/bin/Debug/netcoreapp3.1/linked-lists
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/bin/Debug/netcoreapp3.1/linked-lists.deps.json
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/bin/Debug/netcoreapp3.1/linked-lists.runtimeconfig.json
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/bin/Debug/netcoreapp3.1/linked-lists.runtimeconfig.dev.json
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/bin/Debug/netcoreapp3.1/linked-lists.dll
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/bin/Debug/netcoreapp3.1/linked-lists.pdb
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/obj/Debug/netcoreapp3.1/linked-lists.csprojAssemblyReference.cache
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/obj/Debug/netcoreapp3.1/linked-lists.AssemblyInfoInputs.cache
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/obj/Debug/netcoreapp3.1/linked-lists.AssemblyInfo.cs
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/obj/Debug/netcoreapp3.1/linked-lists.dll
+/home/fandangolas/dev/books/cracking-the-code-interview/exercises/linked-lists/obj/Debug/netcoreapp3.1/linked-lists.pdb
